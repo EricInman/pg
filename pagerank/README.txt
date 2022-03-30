@@ -13,11 +13,11 @@ Instructions for Running pageRank.py:
    
 Example runs for a couple of files:
 
-# big file example
-python3 pageRank.py ./data/amazon0505.txt T T
+# football example
+python3 pageRank.py ./data/NCAA_football.txt T 
 
 # undirected small file
 python3 pageRank.py ./data/lesmis.csv F
 
 # directed small file
-python3 pageRank.py ./data/karateDir.csv
+python3 pageRank.py ./data/karateDir.csv T 
